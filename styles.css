@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ce8181;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilos del header */
+  header {
+    background-color: #eea5a5;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos del footer */
+  footer {
+    background-color: #e73a3a;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Estilos de las asociaciones */
+  .association {
+    margin-bottom: 20px;
+  }
+  
+  .association h3 {
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .association p {
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .association img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  header, main, footer {
+    width: 100%;
+    max-width: 800px; /* Puedes ajustar este valor según tus preferencias */
+    margin: 20px;
+  }
+  .association {
+    text-align: center;
+  }
+  
+  .association img {
+    display: block;
+    margin: 0 auto;
+  }
+    
